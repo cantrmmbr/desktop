@@ -36,7 +36,7 @@ module.exports.focusMenu = async () => {
     height: windowState.height,
     webPreferences: {
       nodeIntegration: true,
-      enableRemoteModule: true,
+      enableRemoteModule: false,
       contextIsolation: false,
       session: session.fromPartition('persist:notion'),
       preload: require('path').resolve(`${__dirname}/electronApi.cjs`),
