@@ -1,14 +1,13 @@
 {
-  "name": "notion-enhancer",
-  "version": "0.11.0-dev",
-  "author": "dragonwocky <thedragonring.bod@gmail.com> (https://dragonwocky.me/)",
+  "name": "notionplus",
+  "version": "1.0.0",
+  "author": "cantrmmbr <accwithpot@gmail.com>",
   "description": "an enhancer/customiser for the all-in-one productivity workspace notion.so",
-  "homepage": "https://github.com/notion-enhancer/desktop",
+  "homepage": "https://github.com/cantrmmbr/desktop",
   "license": "MIT",
   "bin": {
     "notion-enhancer": "bin.mjs"
   },
-  "private": true,
   "type": "module",
   "engines": {
     "node": ">=16.x.x"
@@ -18,28 +17,16 @@
     "preuninstall": "node bin.js remove -n"
   },
   "dependencies": {
+    "@electron/remote": "^2.0.8",    
     "asar": "^3.1.0",
     "chalk": "^4.1.2"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/notion-enhancer/desktop.git"
+    "url": "git+https://github.com/cantrmmbr/desktop.git"
   },
   "keywords": [
-    "windows",
-    "macos",
-    "linux",
-    "productivity",
-    "hack",
-    "extensions",
-    "themes",
-    "integrations",
-    "mod",
-    "mods",
-    "mod-loader",
-    "enhancer",
-    "notion",
-    "notion-enhancer"
+    "mod"
   ],
   "bugs": {
     "url": "https://github.com/notion-enhancer/desktop/issues"
