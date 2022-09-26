@@ -1,6 +1,6 @@
 {
-  "name": "notionplus",
-  "version": "1.0.0",
+  "name": "notion-enhancer",
+  "version": "0.11.0-dev",
   "author": "cantrmmbr <accwithpot@gmail.com>",
   "description": "an enhancer/customiser for the all-in-one productivity workspace notion.so",
   "homepage": "https://github.com/cantrmmbr/desktop",
@@ -19,15 +19,14 @@
   "dependencies": {
     "@electron/remote": "^2.0.8",    
     "asar": "^3.1.0",
-    "chalk": "^4.1.2"
+    "chalk": "^4.1.2",
+    "notion-intl": "file:shared/notion-intl",
+    "notion-enhancer": "file:shared/notion-enhancer"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cantrmmbr/desktop.git"
   },
-  "keywords": [
-    "mod"
-  ],
   "bugs": {
     "url": "https://github.com/notion-enhancer/desktop/issues"
   }
