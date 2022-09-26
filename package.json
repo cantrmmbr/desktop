@@ -17,11 +17,12 @@
     "preuninstall": "node bin.js remove -n"
   },
   "dependencies": {
-    "@electron/remote": "^2.0.8",    
+    "@electron/remote": "^2.0.8",
     "asar": "^3.1.0",
     "chalk": "^4.1.2",
+    "notion-enhancer": "file:shared/notion-enhancer",
     "notion-intl": "file:shared/notion-intl",
-    "notion-enhancer": "file:shared/notion-enhancer"
+    "uuid": "^9.0.0"
   },
   "repository": {
     "type": "git",
