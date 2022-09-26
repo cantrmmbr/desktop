@@ -1,6 +1,6 @@
 {
-  "name": "notion-enhancer",
-  "version": "0.11.0-dev",
+  "name": "notionplus",
+  "version": "1.0.0",
   "author": "cantrmmbr <accwithpot@gmail.com>",
   "description": "an enhancer/customiser for the all-in-one productivity workspace notion.so",
   "homepage": "https://github.com/cantrmmbr/desktop",
@@ -8,7 +8,6 @@
   "bin": {
     "notion-enhancer": "bin.mjs"
   },
-  "private": true,
   "type": "module",
   "engines": {
     "node": ">=16.x.x"
@@ -18,23 +17,17 @@
     "preuninstall": "node bin.js remove -n"
   },
   "dependencies": {
-    "@electron/remote": "2.0.8",
+    "@electron/remote": "^2.0.8",    
     "asar": "^3.1.0",
-    "chalk": "^4.1.2",
-    "notion-enhancer": "file:shared/notion-enhancer",
-    "notion-intl": "file:shared/notion-intl",
-    "patch-package": "6.4.7",
-    "react": "16.10.2"
+    "chalk": "^4.1.2"
   },
-  "devDependencies": {
-    "electron": "^18.3.2",
-    "electron-builder": "^23.0.3"
-  },
-  "main": "./main/main.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cantrmmbr/desktop.git"
   },
+  "keywords": [
+    "mod"
+  ],
   "bugs": {
     "url": "https://github.com/notion-enhancer/desktop/issues"
   }
