@@ -14,6 +14,3 @@
 	path = insert/dep
 	url = git@github.com:notion-enhancer/dep.git
 	branch = main
-[submodule "insert/repo"]
-	path = insert/repo
-	url = git@github.com:cantrmmbr/repo.git
