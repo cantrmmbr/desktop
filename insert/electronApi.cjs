@@ -6,11 +6,10 @@
 
 'use strict';
 
-const {app} = require('electron'),
-  os = require('os'),
+const os = require('os'),
   path = require('path'),
   fs = require('fs'),
-  _cacheFile = path.resolve(`${app.getPath('appData')}/notion-enhancer.json`),
+  _cacheFile = path.resolve(`${os.homedir()}/.notion-enhancer`),
   _fsQueue = new Set(),
   _onDbChangeListeners = [];
 
