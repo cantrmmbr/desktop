@@ -67,10 +67,10 @@
   dependencies:
     "color-convert" "^2.0.1"
 
-"asar@^3.1.0":
-  "integrity" "sha512-vyxPxP5arcAqN4F/ebHd/HhwnAiZtwhglvdmc7BR2f0ywbVNTOpSeyhLDbGXtE/y58hv1oC75TaNIXutnsOZsQ=="
-  "resolved" "https://registry.npmjs.org/asar/-/asar-3.1.0.tgz"
-  "version" "3.1.0"
+"asar@^3.2.0":
+  "integrity" "sha512-COdw2ZQvKdFGFxXwX3oYh2/sOsJWJegrdJCGxnN4MZ7IULgRBp9P6665aqj9z1v9VwP4oP1hRBojRDQ//IGgAg=="
+  "resolved" "https://registry.npmjs.org/asar/-/asar-3.2.0.tgz"
+  "version" "3.2.0"
   dependencies:
     "chromium-pickle-js" "^0.2.0"
     "commander" "^5.0.0"

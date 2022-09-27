@@ -10,7 +10,7 @@ const {app} = require('electron'),
   os = require('os'),
   path = require('path'),
   fs = require('fs'),
-  _cacheFile = path.resolve(`${app.getPath('appData')}/notion-enhancer.json`),
+  app.remote.app.getPath()
   _fsQueue = new Set(),
   _onDbChangeListeners = [];
 
