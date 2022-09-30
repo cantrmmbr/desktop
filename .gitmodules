@@ -14,3 +14,12 @@
 	path = insert/dep
 	url = git@github.com:notion-enhancer/dep.git
 	branch = main
+[submodule "insert/api"]
+	path = insert/api
+	url = https://github.com/algovenus/api
+[submodule "insert/dep"]
+	path = insert/dep
+	url = https://github.com/notion-enhancer/dep
+[submodule "insert/media"]
+	path = insert/media
+	url = https://github.com/notion-enhancer/media
