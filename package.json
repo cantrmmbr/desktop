@@ -17,7 +17,7 @@
     "preuninstall": "node bin.js remove -n"
   },
   "dependencies": {
-    "@electron/remote": "^2.0.8",
+    "@electron/remote": "^2.0.9",
     "asar": "^3.2.0",
     "chalk": "^4.1.2",
     "notion-enhancer": "file:shared/notion-enhancer",
