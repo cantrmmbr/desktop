@@ -22,7 +22,7 @@
     "chalk": "^4.1.2",
     "notion-enhancer": "file:shared/notion-enhancer",
     "notion-intl": "file:shared/notion-intl",
-    "uuid": "^9.0.0"
+    "uuid": "^9.0.1"
   },
   "repository": {
     "type": "git",
